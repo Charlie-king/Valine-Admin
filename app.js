@@ -108,7 +108,7 @@ app.locals.dateFormat = function (date) {
     var vDay = padWithZeros(date.getDate(), 2);
     var vMonth = padWithZeros(date.getMonth() + 1, 2);
     var vYear = padWithZeros(date.getFullYear(), 2);
-    var vHour = padWithZeros(date.getHours(), 2);
+    var vHour = padWithZeros(date.getHours()+8, 2);
     var vMinute = padWithZeros(date.getMinutes(), 2);
     var vSecond = padWithZeros(date.getSeconds(), 2);
     // return `${vYear}-${vMonth}-${vDay}`;
